@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wanaku Studio | Agencia de marketing digital: videos que venden y publicidad en redes</title>
+<meta name="description" content="Videos cortos que venden, publicidad en Facebook e Instagram y automatización con IA para que tu negocio consiga más clientes por WhatsApp. Agencia de marketing digital en Perú.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!-- ============================================================
+  ANTES DE PUBLICAR:
+  1. Cambia WA_NUMBER (al final del archivo) por tu número real, formato 51XXXXXXXXX
+  2. Pega tu etiqueta de Google Ads (gtag) aquí abajo y reemplaza AW-XXXXXXXXX/XXXXXXXX
+  3. Completa los datos del pie de página y el enlace a la política de privacidad
+============================================================ -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','AW-XXXXXXXXX');</script>
+-->
+
+<style>
+:root{
+  --terracota:#C4623F;
+  --terracota-dark:#A94E2E;
+  --arena:#F6EBD9;
+  --arena-2:#EFDFC6;
+  --menta:#BFE3CC;
+  --turquesa:#1F8A8C;
+  --pizarra:#243447;
+  --pizarra-2:#2E4057;
+  --texto:#2A2F38;
+  --blanco:#FFFDF9;
+  --radius:18px;
+  --shadow:0 10px 30px rgba(36,52,71,.12);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',system-ui,sans-serif;color:var(--texto);background:var(--blanco);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased;padding-bottom:84px}
+h1,h2,h3{font-family:'Bricolage Grotesque','DM Sans',sans-serif;line-height:1.1;color:var(--pizarra);letter-spacing:-.02em}
+img,svg{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:min(1120px,100% - 40px);margin-inline:auto}
+section{padding:72px 0}
+.eyebrow{display:inline-block;font-weight:700;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--turquesa);margin-bottom:14px}
+h2{font-size:clamp(1.9rem,4.6vw,2.9rem);font-weight:800;margin-bottom:16px}
+.lead{font-size:1.1rem;max-width:620px;color:#47505c}
+
+/* Botones */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--terracota);color:#fff;font-weight:700;font-size:1.05rem;text-decoration:none;padding:17px 30px;border-radius:999px;border:0;cursor:pointer;min-height:54px;box-shadow:0 8px 20px rgba(196,98,63,.35);transition:transform .15s,background .15s}
+.btn:hover{background:var(--terracota-dark);transform:translateY(-2px)}
+.btn:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--turquesa);outline-offset:3px}
+.btn svg{width:22px;height:22px;flex:none}
+.btn-block{width:100%}
+.micro{font-size:.9rem;color:#5b6572;margin-top:12px}
+
+/* Barra superior */
+header{position:sticky;top:0;z-index:20;background:rgba(255,253,249,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(36,52,71,.08)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.2rem;color:var(--pizarra);text-decoration:none}
+.sun{width:30px;height:30px}
+.bar .btn{padding:10px 20px;min-height:44px;font-size:.95rem;box-shadow:none}
+
+/* Hero */
+.hero{background:linear-gradient(180deg,var(--arena) 0%,var(--blanco) 100%);padding:48px 0 64px;overflow:hidden}
+.hero-grid{display:grid;gap:40px;align-items:center}
+.tag{display:inline-block;background:var(--menta);color:var(--pizarra);font-weight:700;font-size:.82rem;padding:6px 14px;border-radius:999px;margin-bottom:18px}
+.hero h1{font-size:clamp(2.2rem,7vw,3.9rem);font-weight:800;margin-bottom:18px}
+.hero h1 em{font-style:normal;color:var(--terracota)}
+.hero .sub{font-size:1.15rem;color:#38414d;margin-bottom:22px;max-width:560px}
+.checks{list-style:none;display:grid;gap:12px;margin-bottom:28px}
+.checks li{display:flex;gap:12px;align-items:flex-start;font-weight:500}
+.checks .ic{flex:none;width:26px;height:26px;border-radius:50%;background:var(--turquesa);display:grid;place-items:center;margin-top:1px}
+.checks .ic svg{width:14px;height:14px;stroke:#fff;stroke-width:3;fill:none}
+.for{margin-top:18px;font-size:.95rem;color:#47505c;border-left:3px solid var(--terracota);padding-left:12px}
+
+/* Mock teléfono */
+.phone-wrap{position:relative;display:flex;justify-content:center}
+.blob{position:absolute;inset:8% 6%;background:var(--menta);border-radius:42% 58% 55% 45%/50% 45% 55% 50%;z-index:0}
+.phone{position:relative;z-index:1;width:min(270px,70vw);aspect-ratio:9/17;background:var(--pizarra);border-radius:34px;padding:10px;box-shadow:var(--shadow);transform:rotate(3deg)}
+.screen{height:100%;border-radius:26px;background:linear-gradient(160deg,var(--turquesa),var(--pizarra-2) 70%);position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:18px;color:#fff}
+.screen .sunbig{position:absolute;top:-30px;right:-30px;width:150px;height:150px;border-radius:50%;background:var(--terracota);opacity:.95}
+.screen .arc{position:absolute;left:-40px;top:70px;width:200px;height:200px;border-radius:50%;border:16px solid var(--menta);opacity:.35}
+.play{position:absolute;top:42%;left:50%;transform:translate(-50%,-50%);width:62px;height:62px;border-radius:50%;background:rgba(255,255,255,.95);display:grid;place-items:center}
+.play svg{width:24px;height:24px;margin-left:3px;fill:var(--terracota)}
+.cap{position:relative;font-weight:700;font-size:1.05rem;line-height:1.25;margin-bottom:12px;font-family:'Bricolage Grotesque',sans-serif}
+.bubble{position:relative;background:#fff;color:var(--texto);border-radius:14px 14px 14px 4px;padding:10px 12px;font-size:.78rem;line-height:1.35;box-shadow:0 6px 16px rgba(0,0,0,.2)}
+.bubble b{display:block;color:var(--turquesa);font-size:.7rem;margin-bottom:2px}
+.ilus{position:absolute;bottom:-4px;left:50%;transform:translateX(-50%);font-size:.72rem;color:#5b6572;white-space:nowrap;z-index:2}
+
+/* Beneficios */
+.cards{display:grid;gap:18px;margin-top:36px}
+.card{background:var(--arena);border-radius:var(--radius);padding:28px}
+.card .n{width:46px;height:46px;border-radius:14px;background:var(--pizarra);display:grid;place-items:center;margin-bottom:16px}
+.card .n svg{width:24px;height:24px;stroke:var(--menta);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:1.3rem;font-weight:800;margin-bottom:8px}
+.card p{color:#3d4652}
+.strip{text-align:center;margin-top:36px}
+.strip p{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:clamp(1.3rem,3vw,1.8rem);color:var(--pizarra);margin-bottom:18px}
+
+/* Cómo funciona */
+.dark{background:var(--pizarra);color:#e9eef3}
+.dark h2,.dark h3{color:#fff}
+.dark .eyebrow{color:var(--menta)}
+.dark .lead{color:#c4ced9}
+.steps{list-style:none;display:grid;gap:14px;margin-top:36px;counter-reset:s}
+.steps li{counter-increment:s;background:var(--pizarra-2);border-radius:var(--radius);padding:22px 22px 22px 78px;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:20px;top:20px;width:42px;height:42px;border-radius:50%;background:var(--terracota);color:#fff;font-weight:800;display:grid;place-items:center;font-family:'Bricolage Grotesque',sans-serif;font-size:1.1rem}
+.steps h3{font-size:1.1rem;margin-bottom:4px}
+.steps p{color:#c4ced9;font-size:.98rem}
+.inc{margin-top:44px;display:grid;gap:12px}
+.inc h3{font-size:1.25rem;margin-bottom:6px}
+.pills{display:flex;flex-wrap:wrap;gap:10px}
+.pills span{background:rgba(191,227,204,.14);border:1px solid rgba(191,227,204,.4);color:#fff;padding:9px 16px;border-radius:999px;font-size:.95rem;font-weight:500}
+
+/* Por qué */
+.why{display:grid;gap:36px}
+.why-list{display:grid;gap:18px}
+.why-item{display:flex;gap:16px}
+.why-item .dot{flex:none;width:12px;height:12px;border-radius:50%;background:var(--terracota);margin-top:9px}
+.why-item h3{font-size:1.1rem;font-weight:800;margin-bottom:2px}
+.why-item p{color:#47505c;font-size:.98rem}
+.vs{background:var(--arena);border-radius:var(--radius);padding:24px;overflow:hidden}
+.vs h3{font-size:1.1rem;margin-bottom:14px}
+.vs table{width:100%;border-collapse:collapse;font-size:.92rem}
+.vs th,.vs td{text-align:left;padding:11px 10px;border-bottom:1px solid rgba(36,52,71,.12);vertical-align:top}
+.vs th{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:#5b6572}
+.vs td:last-child{font-weight:700;color:var(--turquesa)}
+.vs tr:last-child td{border-bottom:0}
+
+/* Confianza */
+.trust{background:var(--arena)}
+.tgrid{display:grid;gap:16px;margin-top:32px}
+.tcard{background:var(--blanco);border-radius:var(--radius);padding:24px;border:1px solid rgba(36,52,71,.08)}
+.tcard h3{font-size:1.08rem;font-weight:800;margin-bottom:6px}
+.tcard p{font-size:.96rem;color:#47505c}
+.honest{margin-top:28px;font-family:'Bricolage Grotesque',sans-serif;font-size:1.25rem;font-weight:700;color:var(--pizarra);max-width:720px}
+
+/* FAQ */
+.faq{max-width:780px;margin-top:32px}
+details{border-bottom:1px solid rgba(36,52,71,.15);padding:4px 0}
+summary{cursor:pointer;font-weight:700;font-size:1.08rem;padding:18px 36px 18px 0;list-style:none;position:relative;color:var(--pizarra)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:'+';position:absolute;right:4px;top:50%;transform:translateY(-50%);font-size:1.6rem;color:var(--terracota);font-weight:500;transition:transform .2s}
+details[open] summary::after{content:'−'}
+details p{padding:0 0 20px;color:#47505c}
+
+/* Cierre */
+.close{background:linear-gradient(135deg,var(--terracota) 0%,#B04F30 100%);color:#fff;position:relative;overflow:hidden}
+.close::before{content:'';position:absolute;right:-80px;top:-80px;width:280px;height:280px;border-radius:50%;background:rgba(255,255,255,.12)}
+.close h2{color:#fff}
+.close .lead{color:#fff5ec}
+.close-grid{display:grid;gap:36px;position:relative}
+.close .btn{background:var(--pizarra);box-shadow:0 8px 20px rgba(0,0,0,.25)}
+.close .btn:hover{background:#1a2736}
+.close .micro{color:#ffe9dc}
+.form{background:var(--blanco);color:var(--texto);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow)}
+.form h3{font-size:1.2rem;margin-bottom:4px}
+.form .small{font-size:.9rem;color:#5b6572;margin-bottom:16px}
+label{display:block;font-weight:700;font-size:.9rem;margin:12px 0 6px;color:var(--pizarra)}
+input,select{width:100%;font:inherit;padding:14px;border-radius:12px;border:1.5px solid #cfd5dc;background:#fff;color:var(--texto);min-height:50px}
+.form .btn{margin-top:18px;background:var(--terracota)}
+.form .btn:hover{background:var(--terracota-dark)}
+.err{color:#b3261e;font-size:.85rem;margin-top:6px;display:none}
+
+footer{background:var(--pizarra);color:#c4ced9;padding:40px 0 20px;font-size:.92rem}
+.fgrid{display:grid;gap:20px}
+footer a{text-decoration:underline;text-underline-offset:3px}
+.fine{margin-top:28px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);font-size:.82rem;color:#93a1b1}
+
+/* Botón fijo móvil */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(255,253,249,.96);backdrop-filter:blur(8px);border-top:1px solid rgba(36,52,71,.1)}
+.sticky .btn{width:100%}
+
+@media(min-width:760px){
+  body{padding-bottom:0}
+  .sticky{display:none}
+  section{padding:96px 0}
+  .hero{padding:72px 0 88px}
+  .hero-grid{grid-template-columns:1.15fr .85fr}
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .why{grid-template-columns:1fr 1fr;align-items:start}
+  .tgrid{grid-template-columns:repeat(2,1fr)}
+  .close-grid{grid-template-columns:1fr 1fr;align-items:center}
+  .fgrid{grid-template-columns:1.2fr 1fr 1fr}
+}
+@media(min-width:1000px){
+  .cards{grid-template-columns:repeat(4,1fr)}
+  .tgrid{grid-template-columns:repeat(4,1fr)}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Wanaku Studio">
+      <svg class="sun" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="8" fill="#C4623F"/><path d="M4 30a16 16 0 0 1 32 0" fill="none" stroke="#1F8A8C" stroke-width="4" stroke-linecap="round"/></svg>
+      Wanaku Studio
+    </a>
+    <a class="btn js-wa" href="#" data-src="header">Escríbenos</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- 2. HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="tag">Agencia de marketing digital en Perú</span>
+      <h1>Haz que tus redes sociales generen <em>clientes</em>, no solo likes.</h1>
+      <p class="sub">Videos cortos que venden, publicidad en Facebook e Instagram y automatización con IA para atender y dar seguimiento a tus prospectos por WhatsApp. Todo en un solo equipo.</p>
+      <ul class="checks">
+        <li><span class="ic"><svg viewBox="0 0 16 16"><path d="M3 8.5l3.2 3L13 4.5"/></svg></span>Videos para Reels, TikTok y anuncios que captan la atención y llevan a la consulta</li>
+        <li><span class="ic"><svg viewBox="0 0 16 16"><path d="M3 8.5l3.2 3L13 4.5"/></svg></span>Campañas en Meta Ads diseñadas para generar mensajes y oportunidades de venta</li>
+        <li><span class="ic"><svg viewBox="0 0 16 16"><path d="M3 8.5l3.2 3L13 4.5"/></svg></span>Respuestas y seguimiento con IA para que ningún prospecto se enfríe</li>
+      </ul>
+      <a class="btn js-wa" href="#" data-src="hero">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 2.2 17.8L1 23l5.3-1.4A11.8 11.8 0 0 0 12 23.2h0A11.8 11.8 0 0 0 20.5 3.5zM12 21.2a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.1.8.8-3-.2-.4a9.8 9.8 0 1 1 7.9 4.2zm5.4-7.3c-.3-.1-1.7-.8-2-.9s-.5-.1-.7.1-.8.9-.9 1.1-.3.2-.6.1a8 8 0 0 1-2.4-1.5 9 9 0 0 1-1.6-2c-.2-.3 0-.5.1-.6l.4-.5.3-.4a.7.7 0 0 0 0-.5c-.1-.1-.7-1.6-.9-2.2s-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.700 3.700 0 0 0-1.100 2.700 6.400 6.400 0 0 0 1.300 3.400 14.600 14.600 0 0 0 5.600 4.900c2.100.9 2.900.9 3.400.8a2.800 2.800 0 0 0 1.800-1.300 2.200 2.200 0 0 0 .2-1.300c-.1-.1-.3-.2-.6-.3z"/></svg>
+        Quiero atraer más clientes
+      </a>
+      <p class="micro">Se abre WhatsApp: conversamos sobre tu negocio y te contamos qué solución encaja.</p>
+      <p class="for">Para emprendedores, pymes y marcas que quieren más consultas y ventas desde redes.</p>
+    </div>
+    <div class="phone-wrap" aria-hidden="true">
+      <div class="blob"></div>
+      <div class="phone">
+        <div class="screen">
+          <div class="sunbig"></div><div class="arc"></div>
+          <div class="play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg></div>
+          <p class="cap">Un video corto.<br>Una consulta.<br>Una venta.</p>
+          <div class="bubble"><b>WhatsApp</b>Hola, vi su video y quiero cotizar.</div>
+        </div>
+      </div>
+      <span class="ilus">Ilustración del proceso</span>
+    </div>
+  </div>
+</section>
+
+<!-- 3. BENEFICIOS -->
+<section id="beneficios">
+  <div class="wrap">
+    <span class="eyebrow">¿Qué hacemos por tu marca?</span>
+    <h2>Menos publicar por publicar.<br>Más consultas de personas interesadas.</h2>
+    <div class="cards">
+      <article class="card">
+        <div class="n"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="14" height="14" rx="3"/><path d="M17 10l4-2v8l-4-2"/></svg></div>
+        <h3>Contenido que conecta</h3>
+        <p>Videos para Reels, TikTok y anuncios pensados para captar atención y llevar a la gente a escribirte, no solo a darle like.</p>
+      </article>
+      <article class="card">
+        <div class="n"><svg viewBox="0 0 24 24"><path d="M3 11v2a2 2 0 0 0 2 2h2l5 4V5L7 9H5a2 2 0 0 0-2 2z"/><path d="M16 8.500a5 5 0 0 1 0 7"/></svg></div>
+        <h3>Publicidad que genera consultas</h3>
+        <p>Campañas en Facebook e Instagram diseñadas para atraer mensajes y oportunidades de venta de personas interesadas en lo que vendes.</p>
+      </article>
+      <article class="card">
+        <div class="n"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.500 7.200L4 20l1-4.500A8 8 0 1 1 21 12z"/><path d="M9 11h6M9 14h4"/></svg></div>
+        <h3>Atención y seguimiento con IA</h3>
+        <p>Automatizaciones para responder más rápido y dar seguimiento a tus prospectos sin depender de estar pendiente del celular.</p>
+      </article>
+      <article class="card">
+        <div class="n"><svg viewBox="0 0 24 24"><circle cx="8" cy="12" r="4"/><circle cx="16" cy="12" r="4"/></svg></div>
+        <h3>Un solo equipo, una sola estrategia</h3>
+        <p>Contenido, publicidad y automatización trabajan juntos. Menos proveedores sueltos, menos improvisación.</p>
+      </article>
+    </div>
+    <div class="strip">
+      <p>Menos tiempo improvisando. Más oportunidades para vender.</p>
+      <a class="btn js-wa" href="#" data-src="beneficios">Quiero atraer más clientes</a>
+    </div>
+  </div>
+</section>
+
+<!-- 4. CÓMO FUNCIONA -->
+<section class="dark" id="como-funciona">
+  <div class="wrap">
+    <span class="eyebrow">Cómo funciona</span>
+    <h2>Empieza con una conversación.</h2>
+    <p class="lead">El primer paso es escribirnos. Sin formularios largos ni compromisos de compra.</p>
+    <ol class="steps">
+      <li><h3>Escríbenos por WhatsApp</h3><p>Cuéntanos qué vendes y qué necesitas lograr.</p></li>
+      <li><h3>Definimos la estrategia</h3><p>Revisamos tu negocio, tu cliente ideal y qué contenido y publicidad tienen más sentido.</p></li>
+      <li><h3>Producimos tu contenido</h3><p>Videos cortos y piezas pensadas para atraer consultas.</p></li>
+      <li><h3>Lanzamos tu publicidad</h3><p>Campañas en Meta Ads para llegar a personas con interés en lo que ofreces.</p></li>
+      <li><h3>Automatizamos la atención</h3><p>Respuestas y seguimiento con IA para que cada consulta tenga respuesta rápida.</p></li>
+      <li><h3>Medimos y ajustamos</h3><p>Revisamos qué funciona y mejoramos el contenido y la pauta.</p></li>
+    </ol>
+    <div class="inc">
+      <h3>Qué puede incluir tu solución</h3>
+      <div class="pills">
+        <span>Contenido estratégico para redes</span>
+        <span>Videos cortos orientados a conversión</span>
+        <span>Gestión de campañas en Meta Ads</span>
+        <span>Automatización con IA</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. POR QUÉ ELEGIRNOS -->
+<section id="por-que">
+  <div class="wrap why">
+    <div>
+      <span class="eyebrow">Por qué Wanaku Studio</span>
+      <h2>No te vendemos publicaciones. Te ayudamos a conseguir clientes.</h2>
+      <div class="why-list">
+        <div class="why-item"><span class="dot"></span><div><h3>Pensado para vender</h3><p>Cada video y cada campaña parte de una pregunta: ¿esto ayuda a que alguien escriba y compre?</p></div></div>
+        <div class="why-item"><span class="dot"></span><div><h3>Todo conectado</h3><p>El contenido atrae, la publicidad amplifica y la automatización responde y da seguimiento.</p></div></div>
+        <div class="why-item"><span class="dot"></span><div><h3>Atención más rápida</h3><p>Con IA, tus prospectos reciben respuesta sin esperar a que alguien vea el mensaje.</p></div></div>
+        <div class="why-item"><span class="dot"></span><div><h3>Comunicación directa</h3><p>Hablas con el equipo que crea tu estrategia. Sin tecnicismos ni promesas vacías.</p></div></div>
+      </div>
+    </div>
+    <div class="vs">
+      <h3>La diferencia, en simple</h3>
+      <table>
+        <thead><tr><th></th><th>Solo publicar</th><th>Wanaku</th></tr></thead>
+        <tbody>
+          <tr><td>Objetivo</td><td>Publicar y sumar seguidores</td><td>Generar consultas y oportunidades de venta</td></tr>
+          <tr><td>Contenido</td><td>Piezas sueltas</td><td>Videos pensados para convertir</td></tr>
+          <tr><td>Respuesta</td><td>Manual y lenta</td><td>Apoyada con automatización</td></tr>
+          <tr><td>Estrategia</td><td>Separada de la pauta</td><td>Contenido, pauta y seguimiento integrados</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- 6. CONFIANZA -->
+<!-- AGREGAR AQUÍ cuando existan: casos reales, testimonios con permiso, logos autorizados, fotos del equipo.
+     No publicar cifras ni resultados que no se puedan demostrar. -->
+<section class="trust" id="confianza">
+  <div class="wrap">
+    <span class="eyebrow">Cómo trabajamos</span>
+    <h2>Transparencia desde la primera conversación.</h2>
+    <div class="tgrid">
+      <div class="tcard"><h3>Empezamos por tu negocio</h3><p>Antes de proponer nada, entendemos qué vendes, a quién y qué quieres lograr.</p></div>
+      <div class="tcard"><h3>Objetivos claros</h3><p>Definimos contigo qué se puede lograr y cómo lo vamos a medir.</p></div>
+      <div class="tcard"><h3>Contacto directo</h3><p>Te atiende el equipo por WhatsApp, sin intermediarios ni formularios eternos.</p></div>
+      <div class="tcard"><h3>Sin humo</h3><p>No prometemos plazos ni cifras mágicas. Medimos, ajustamos y te contamos qué funciona.</p></div>
+    </div>
+    <p class="honest">No prometemos resultados mágicos. Empezamos entendiendo tu negocio y definiendo qué se puede lograr.</p>
+  </div>
+</section>
+
+<!-- 7. FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <span class="eyebrow">Preguntas frecuentes</span>
+    <h2>Lo que suelen preguntarnos antes de escribir.</h2>
+    <div class="faq">
+      <details><summary>¿Qué servicios ofrece Wanaku Studio?</summary><p>Creación de contenido estratégico, videos cortos orientados a conversión, gestión de campañas en Meta Ads y automatización de la captación y seguimiento de clientes con inteligencia artificial.</p></details>
+      <details><summary>¿Para qué tipo de negocio es?</summary><p>Para emprendedores, pequeñas y medianas empresas y marcas que quieren atraer clientes y generar consultas desde redes sociales.</p></details>
+      <details><summary>¿Es lo mismo que contratar un community manager?</summary><p>No. Un community manager suele encargarse de publicar. Nosotros partimos del objetivo comercial: contenido que atrae, publicidad que lo amplifica y seguimiento que ayuda a convertir consultas en ventas.</p></details>
+      <details><summary>¿Qué pasa cuando hago clic en el botón?</summary><p>Se abre WhatsApp con un mensaje listo para enviarnos. Conversamos sobre tu negocio y te contamos qué solución encaja. No es una compra: es una conversación.</p></details>
+      <details><summary>¿Cuánto cuesta?</summary><p>Depende de lo que necesite tu negocio. Trabajamos con paquetes de contenido que se pueden complementar con publicidad y automatización. Escríbenos y te orientamos.</p></details>
+      <details><summary>¿Cuándo voy a ver resultados?</summary><p>Depende del negocio, la oferta y el presupuesto. No prometemos plazos ni cifras: definimos objetivos contigo y medimos para ajustar.</p></details>
+      <details><summary>¿Qué es la automatización con IA y para qué sirve?</summary><p>Son herramientas que responden consultas frecuentes, ordenan tus prospectos y les dan seguimiento, para que no se pierdan oportunidades por tardar en contestar. Empezamos por lo que tu negocio realmente necesita.</p></details>
+      <details><summary>¿Trabajan con negocios de fuera de Lima o de Perú?</summary><p>Trabajamos principalmente con negocios en Perú y evaluamos proyectos de otros países. Escríbenos y lo vemos.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- 8. CIERRE -->
+<section class="close" id="contacto">
+  <div class="wrap close-grid">
+    <div>
+      <h2>¿Listo para que tus redes traigan clientes?</h2>
+      <p class="lead">Escríbenos por WhatsApp y conversemos sobre una solución para tu marca. Cuéntanos qué vendes y qué quieres lograr.</p>
+      <div style="margin-top:26px"><a class="btn js-wa" href="#" data-src="cierre">Quiero atraer más clientes</a></div>
+      <p class="micro">Se abre WhatsApp en tu celular o computadora.</p>
+    </div>
+    <form class="form" id="lead-form" novalidate>
+      <h3>¿Prefieres que te escribamos?</h3>
+      <p class="small">Déjanos tus datos y seguimos la conversación por WhatsApp.</p>
+      <label for="nombre">Tu nombre</label>
+      <input id="nombre" name="nombre" autocomplete="given-name" required>
+      <label for="negocio">Nombre de tu negocio</label>
+      <input id="negocio" name="negocio" autocomplete="organization" required>
+      <label for="necesidad">¿Qué necesitas?</label>
+      <select id="necesidad" name="necesidad">
+        <option>Más clientes por redes</option>
+        <option>Videos para mi negocio</option>
+        <option>Publicidad en Meta (Facebook e Instagram)</option>
+        <option>Automatizar la atención con IA</option>
+        <option>No estoy seguro</option>
+      </select>
+      <p class="err" id="err">Completa tu nombre y el de tu negocio.</p>
+      <button class="btn btn-block" type="submit">Quiero atraer más clientes</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <strong style="color:#fff;font-family:'Bricolage Grotesque',sans-serif;font-size:1.2rem">Wanaku Studio</strong>
+        <p style="margin-top:8px">Agencia de soluciones digitales: contenido, producción audiovisual, publicidad y automatización con IA.</p>
+      </div>
+      <div>
+        <p><strong style="color:#fff">Contacto</strong></p>
+        <p><a class="js-wa" href="#" data-src="footer">Escríbenos por WhatsApp</a></p>
+        <p><a href="mailto:wanakustudio@gmail.com">wanakustudio@gmail.com</a></p>
+        <p>Perú</p>
+        <p style="margin-top:10px">
+          <a href="https://www.instagram.com/wanakustudio.peru" target="_blank" rel="noopener">Instagram</a> ·
+          <a href="https://www.tiktok.com/@wanakustudio" target="_blank" rel="noopener">TikTok</a> ·
+          <a href="https://www.facebook.com/profile.php?id=61595052926184" target="_blank" rel="noopener">Facebook</a>
+        </p>
+      </div>
+      <div>
+        <p><strong style="color:#fff">Legal</strong></p>
+        <p><a href="#">Política de privacidad</a></p>
+        <p><a href="#">Términos y condiciones</a></p>
+      </div>
+    </div>
+    <p class="fine">© <span id="y"></span> Wanaku Studio. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<div class="sticky">
+  <a class="btn js-wa" href="#" data-src="sticky">Quiero atraer más clientes</a>
+</div>
+
+<script>
+/* ===== CONFIGURACIÓN ===== */
+var WA_NUMBER = "51964737557"; // código de país + número, sin + ni espacios
+var WA_MESSAGE = "Hola, vi su anuncio y quiero atraer más clientes para mi negocio.";
+/* ID de conversión de Google Ads (opcional): "AW-XXXXXXXXX/XXXXXXXX" */
+var GADS_CONVERSION = "";
+
+function waLink(text){return "https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent(text)}
+function track(src){
+  try{
+    if(typeof gtag==="function"){
+      gtag("event","whatsapp_click",{event_category:"lead",event_label:src});
+      if(GADS_CONVERSION){gtag("event","conversion",{send_to:GADS_CONVERSION})}
+    }
+  }catch(e){}
+}
+document.querySelectorAll(".js-wa").forEach(function(a){
+  a.href=waLink(WA_MESSAGE);
+  a.target="_blank";
+  a.rel="noopener";
+  a.addEventListener("click",function(){track(a.getAttribute("data-src")||"cta")});
+});
+document.getElementById("lead-form").addEventListener("submit",function(e){
+  e.preventDefault();
+  var n=this.nombre.value.trim(), b=this.negocio.value.trim();
+  var err=document.getElementById("err");
+  if(!n||!b){err.style.display="block";return}
+  err.style.display="none";
+  var msg="Hola, soy "+n+" de "+b+". Necesito: "+this.necesidad.value+". Vi su anuncio y quiero atraer más clientes.";
+  track("formulario");
+  window.open(waLink(msg),"_blank","noopener");
+});
+document.getElementById("y").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
